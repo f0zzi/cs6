@@ -74,8 +74,7 @@ namespace cs6
 
             Console.WriteLine();
             Console.WriteLine($"Task3=====================");
-            Fibo fibo = new Fibo(100);
-            foreach (var el in fibo)
+            foreach (var el in new Fibo().Get(100))
                 Console.WriteLine(el);
 
             Console.WriteLine();
